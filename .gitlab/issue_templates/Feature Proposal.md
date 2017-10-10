@@ -21,12 +21,4 @@ THEN [reaction]
 **NEEDS DESIGN**
 [Add reason for adding a label needs design so your designers can view the story and get context to unblock the story]
 
-**Related issues**
-
-#
-
-**Related Merge Requests**
-
-#
-
 /label ~"story"
