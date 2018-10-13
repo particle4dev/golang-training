@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+
+  go:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - ./.git:/go/src/.go_workspace/.git
+      - ./version:/go/src/.go_workspace/version
+      - ./vendor:/go/src/.go_workspace/vendor
+      - ./src:/go/src/.go_workspace/web-server
+      - ./pkg:/go/src/.go_workspace/pkg
+      - ./Makefile:/go/src/.go_workspace/Makefile
+    ports:
+      - 8080:8080
