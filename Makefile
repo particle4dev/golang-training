@@ -46,7 +46,8 @@ get-tools:
 		github.com/golang/lint/golint \
 		github.com/wfarner/blockcheck \
 		github.com/rancher/trash \
-		github.com/stretchr/testify
+		github.com/stretchr/testify \
+		github.com/ethereum/go-ethereum/log
 
 logs:
 	@echo "+ $@"
