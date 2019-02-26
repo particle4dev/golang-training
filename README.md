@@ -1,4 +1,8 @@
-# Golang - Training
+<p align="center">
+  <img src="./logo.png" width="150" />
+</p>
+
+# Go - Training
 
 From wikipedia
 
