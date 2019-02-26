@@ -1,23 +1,31 @@
-# golang-training
+<p align="center">
+  <img src="./logo.png" width="150" />
+</p>
 
-### How to run
+# Go - Training
 
-Step 1: Start docker compose
+From wikipedia
 
-`docker-compose up -d`
+Go (often referred to as Golang) is a statically typed, compiled programming language which was designed at Google in 2007 to improve programming productivity in an era of multicore, networked machines and extremely large codebases. The designers wanted to address criticism of other languages in use at Google, while retaining their useful characteristics:
 
-Step 2: Run bash commands in go services
+- Static typing and run-time efficiency (like C++ or Java)
 
-`docker-compose exec go bash`
+- Readability and usability (like Python or JavaScript)
 
-Step 3: Download go packages
+- High-performance networking and multiprocessing
 
-`make get-tools`
 
-Step 4: Run tests
+### Prerequisites
 
-`make ci`
+Following are the minimum tested versions for the tools and libraries you need for running this repo:
 
-### View the logs
+- Go: go1.11.5 or newer
 
-`docker-compose -f ./0compose/docker-compose.yml logs -f go`
+- Go Version Manager: v1.0.22 or newer
+
+## Practices
+
+### Table of Contents
+
+- Basic
+  - [**Hello app**](practices/2-hello-app/README.md)
