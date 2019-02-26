@@ -27,7 +27,8 @@ Following are the minimum tested versions for the tools and libraries you need f
 
 ### Table of Contents
 
-
+- Basic
+  - [**Hello app**](practices/2-hello-app/README.md)
 
 
 
