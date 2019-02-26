@@ -14,6 +14,15 @@ Go (often referred to as Golang) is a statically typed, compiled programming lan
 
 - High-performance networking and multiprocessing
 
+
+### Prerequisites
+
+Following are the minimum tested versions for the tools and libraries you need for running this repo:
+
+- Go: go1.11.5 or newer
+
+- Go Version Manager: v1.0.22 or newer
+
 ## Practices
 
 ### Table of Contents
