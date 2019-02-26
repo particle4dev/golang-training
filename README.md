@@ -1,4 +1,16 @@
-# golang-training
+# Golang - Training
+
+From wikipedia
+
+Go (often referred to as Golang[13]) is a statically typed, compiled programming language which was designed at Google in 2007 to improve programming productivity in an era of multicore, networked machines and extremely large codebases.[22] The designers wanted to address criticism of other languages in use at Google, while retaining their useful characteristics:[23]
+
+- Static typing and run-time efficiency (like C++ or Java)
+- Readability and usability (like Python or JavaScript)[24]
+- High-performance networking and multiprocessing
+
+## Practices
+
+### Table of Contents
 
 ### How to run
 
